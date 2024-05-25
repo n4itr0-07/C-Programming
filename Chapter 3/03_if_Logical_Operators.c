@@ -27,3 +27,7 @@ int main()
 // TODO: "1 and 0" is evaluated as false.
 // TODO: "0 and 0" is evaluated as false.
 // TODO: "1 and 1" is evaluated as true.
+
+//TODO: || --> OR --> is true when atleast one of the conditions is true (1 or 0 -->1) (1 or 1 --> !)
+
+//TODO: ! --> Returns true if given false and false if given true.

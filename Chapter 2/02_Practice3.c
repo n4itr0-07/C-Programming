@@ -8,6 +8,6 @@ int main()
     // 2 - 3 + 1
     // 2 -3 + 1
     // 0
-    printf(The value of result is "%d\n", result);
+    printf("The value of result is %d \n", result);
     return 0;
 }

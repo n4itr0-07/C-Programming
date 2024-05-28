@@ -41,3 +41,24 @@ int main()
 
     return 0;
 }
+
+/* 
+ Explanation:
+Prompt for Input:
+The program starts by asking the user to enter the lengths of the three sides of a triangle.
+
+Check for Non-Positive Side Lengths:
+The first if statement checks if any of the side lengths are non-positive (less than or equal to zero). If true, it prints an error message.
+
+Check for Triangle Inequality Theorem:
+The next else if statement checks if the sum of any two sides is less than or equal to the third side, which would make it impossible to form a triangle. If true, it prints an error message.
+
+Check for Equilateral Triangle:
+The subsequent else if statement checks if all three sides are equal. If true, it prints "The triangle is equilateral."
+
+Check for Isosceles Triangle:
+Another else if statement checks if any two sides are equal. If true, it prints "The triangle is isosceles."
+
+Check for Scalene Triangle:
+The final else statement handles the case where none of the previous conditions are met, meaning all three sides are different. It prints "The triangle is scalene."
+ */

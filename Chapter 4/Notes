@@ -1,0 +1,5 @@
+//TODO: Notes
+
+1> Sometimes, the name of the variable might not indicate the brhaviout of thr program.
+2> break statement completely exits the loop.
+3> Continue statement skips the particular iteration of the loop.

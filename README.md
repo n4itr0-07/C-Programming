@@ -32,3 +32,17 @@
   <li>Ternary Operators</li>
   <li>Practice Questions</li>
 </ul>
+<hr>
+<b>CHAPTER 4</b> 
+<ul>
+<li>Loop Introduction</li>
+<li>while loop</li>
+<li>do-while loop</li>
+<li>for loop</li>
+<li>Increment and decrement<li>
+<li>break condition</li>
+<li>continue condition</li>
+<li>Important Notes</li>
+<li>Practice Questions</li>
+
+</ul>

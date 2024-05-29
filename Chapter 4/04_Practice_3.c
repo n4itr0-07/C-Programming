@@ -2,7 +2,7 @@
 
 int main()
 {
-    iny i = 0, n = 3, factorial = 1;
+    int i = 0, n = 3, factorial = 1;
     for (i = 0; i <= n; i++)
     {
         factorial *= i;

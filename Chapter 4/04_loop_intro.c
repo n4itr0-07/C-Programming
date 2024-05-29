@@ -32,7 +32,21 @@ while (condition is true) {
 do - while loop
 The syntax of do - while loop looks like this:
 do {
-    //code to be executed
-    //code to be executed
-} while (condition)
+    code;
+    code;
+    code;
+} while (condition);
 */
+
+//TODO: For Loop :- The syntax of for loop looks like this :
+
+/* for (initialize; test; increment or decrement);
+{
+code;
+code;
+}
+*/
+
+//FIXME: Initialize --> Setting a loop counter to an initial value 
+//FIXME: Test --> Checking a condition
+//FIXME: Increment --> 

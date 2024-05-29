@@ -15,9 +15,9 @@
 <b>CHAPTER 2</b>
 
 <ul>
-  <li>Arthimatic Instructions </li>
+  <li>Athematic Instructions </li>
   <li>Operator Precedence</li>
-<li>Type Decleration Instructions</li>
+<li>Type Declaration Instructions</li>
   <li>Practice Questions</li>
 </ul>
 <hr>

@@ -22,6 +22,21 @@ while (condition is true) {
 //TODO: += is compound assignment operator. Just like -=, *=, /= & %=
 
 
+//TODO: A case of decrementing for loop
+/*
+for (i = 5; i; i--)
+printf("%d\n",i)
+
+This for loop will keep on running until i becomes 0.
+The loop runs in following steps:
+1.  I IS initialized to 5
+2.  The condition "i" (0 or non 0) is tested.
+3.  The code is executed.
+4.  i is decremented.
+5.  Condition i is checked & code is executed if its not0.
+6.  & so on until i is non 0.
+*/
+
 //TODO: do - while loop works very similar to while loop. 
 // while --> checks the condition & then executes the code.
 // do - while --> Executes the code and then checks the condition.
@@ -49,4 +64,4 @@ code;
 
 //FIXME: Initialize --> Setting a loop counter to an initial value 
 //FIXME: Test --> Checking a condition
-//FIXME: Increment --> 
+//FIXME: Increment --> Updating the loop counter.

@@ -62,3 +62,27 @@ void display(){ //TODO: Function Definition
 // int sum(int a, int b) -> Parameters
 
 // The above prototype means that sum is a function which takes values a (of type int) and b(of type int) and returns a valueof type int.
+
+//TODO: Notes :-
+
+/*
+1). Parameters are the values or variable placeholders in the function definition. eg a & b
+
+2). Arguments are the actual values passed to the function to make a call. eg  2 & 3
+
+3). A function can return only one value at a time.
+
+4). If the passed variable is changed inside the function, the function call does not change the value in the calling function.
+
+int change (int a) {
+    a = 77;  ---> Misnomer which means wrong name
+    return 0;
+}
+change is a function which changes a to 77 . Now if we call it from main like this 
+
+int b = 22;
+change (b);  ==> The value of b remains 22
+printf("b is %d", b); ==> This prints "B is 22"
+
+This happens because a copy of b is passed to the change function 
+*/

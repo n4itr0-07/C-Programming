@@ -1,5 +1,5 @@
 # C Programming 
-<hr>
+
 <b> In this repo i will share my <em>c programming</em> , learning and practice questions with chapter wisely </b>
 <br>
 <hr>
@@ -39,10 +39,28 @@
 <li>while loop</li>
 <li>do-while loop</li>
 <li>for loop</li>
-<li>Increment and decrement<li>
-<li>break condition</li>
+<li>Increment and decrement</li>
+<li>break-condition</li>
 <li>continue condition</li>
 <li>Important Notes</li>
 <li>Practice Questions</li>
 
 </ul>
+
+</ul>
+<hr>
+<b>CHAPTER 5</b> 
+<ul>
+<li>Functions Introduction</li>
+<li>Types Of function</li>
+<li>Quiz questions/li>
+<li>Recursion In C</li>
+<li>Practice Questions</li>
+</ul>
+
+<b><h3>Number Gassing Game</h3></b>
+<i> Generate random numbers and play till you get exact results</i>
+<i>Using do while loop and if else loop</i>
+
+<b><p>Follow me on  <a href="https://x.com/code_with_ssn>"> X | TWitter</a></p></b>
+<b><p>Follow me on  <a href="https://www.linkedin.com/in/salik-seraj-naik"> Linkedin</a></p></b>

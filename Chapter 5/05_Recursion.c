@@ -33,3 +33,13 @@ int factorial(int x)
         return x * factorial(x - 1);
     }
 }
+//TODO: Important Notes :-
+
+/*
+1> Recursion is sometimes the most direct way to code an algorithm.
+
+2> The condition which does not call the function any further in a recursive function is called as the base condition.
+
+3> Sometimes due to a mistake made by the programmer, a recursive function can keep running without returning resulting in a memory error.
+
+*/

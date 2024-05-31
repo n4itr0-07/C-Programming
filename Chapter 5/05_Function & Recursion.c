@@ -32,3 +32,33 @@ void display(){ //TODO: Function Definition
 //TODO: Function Definition
 
 // This part contains the exact set of instructions which are expected to be executed during the function call when a function is called from main(), the main function falls asleep and gets temporarily suspended. During this time the control goes to the function being called. When the function body is done executing main() resumes.
+
+//TODO: Important Points 
+
+// --> Execution of a C program starts from main()
+// --> A  C program can have more than one function
+// --> Every function gets called directly or indirectly from main().
+// --> There are two types of functions in C lets talk about them.
+
+//TODO: Types of Functions in C
+
+/*
+1> Library Function -> Commonly required Functions grouped together in a library file on disk.
+
+2> User Defined Functions -> These are the functions declared and defined by the user.
+*/
+
+//TODO: Why Use Functions ?
+
+/*
+1) TO avoid repeating again and again.
+2) To keep of what we are doing in a program.
+3) To test and check logic independently.
+*/
+
+//TODO: Passing Values To Functions
+// We can pass values to a function and can get a value in return from a function.
+
+// int sum(int a, int b) -> Parameters
+
+// The above prototype means that sum is a function which takes values a (of type int) and b(of type int) and returns a valueof type int.

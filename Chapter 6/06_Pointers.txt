@@ -1,0 +1,37 @@
+                            CHAPTER 6 - POINTERS 
+
+    A pointer is a variable which stores the address of another variable.
+
+    i = 72                     j = 87994                            
+    address--> 87994           address--> 87998
+
+    j is a pointer 
+    j points to i 
+
+    The "address of" (8) operator 
+    The address of operator is used to obtain the address of a given variable.
+
+   Format specifier for printing pointer address is "%u" 
+
+   The 'value at address' operator (*)
+   The value at address or / operator is used to obtain the value present at a given memory address. It denoted by *
+
+   * (8i) = 72
+   *(8j) =  87994
+
+   How to declare a pointer ?
+   A pointer is declared using the following syntax
+
+   int *j; ==> declare a variable j of type int - pointer
+   j = 8i ==> Store address of i in j
+
+   Just lik pointers of type integer, we also have pointers to char, float etc
+
+   int * ch_ptr; --> Pointers to integer
+   char * ch_ptr; --> Pointers to character
+   float * ch_ptr; --> Pointers to float
+
+   Althrough is a good practice to use meaningful variables names, we should be very careful while reading & working on programs from fellow programmers .
+
+   A program to demonstrate pointers 
+

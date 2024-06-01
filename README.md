@@ -58,6 +58,16 @@
 <li>Practice Questions</li>
 </ul>
 
+<hr>
+<b color="red">CHAPTER 6</b> 
+<ul>
+<li>Introduction To Pointers</li>
+<li>Types Of Function Call</li>
+<li>Call By Value/li>
+<li>Call By Reference</li>
+<li>4 Practice Questions</li>
+</ul>
+
 <b><h3>Number Gassing Game</h3></b>
 <i> Generate random numbers and play till you get exact results</i>
 <i>Using do while loop and if else loop</i>

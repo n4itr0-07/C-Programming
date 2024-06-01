@@ -1,0 +1,23 @@
+                                        Types Of Function Calls
+
+Based on the way we pass arguments to the Function, function calls are of two types.
+
+
+1). Call By Value --> Sending the values of arguments.
+
+2). Call By Reference --> Sending the address of arguments.
+
+                         Call By Value
+Here the value of the arguments are passed to the function. Consider this example.
+
+int c = sum(3,4); => assume x=3 and y=4
+
+if sum is defined as sum(int a, int b), the values 3 & 4 are copied to a & b . Now even if we change a and b, nothing happens to the variables x and y.
+This is call by value.
+
+In C we usually make a call by value.
+
+                        Call By Reference
+Here the address of the variables is passed to the function as arguments.
+
+Now sincw the addresses are passed to the function the function can now modify the values of a variable in calling function using * and & 

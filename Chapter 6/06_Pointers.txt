@@ -1,4 +1,4 @@
-                            CHAPTER 6 - POINTERS 
+                             CHAPTER 6 - POINTERS 
 
     A pointer is a variable which stores the address of another variable.
 
@@ -35,6 +35,12 @@
 
    A program to demonstrate pointers 
 
+                               POINTER TO A POINTER 
+Just like j is pointing to i or storing the address of i, we can have another variable k which can further store the address of j. What will be the type of R 
 
+int **R;
+R = 8j;
+
+We can  even go further one level and create a variable L of type int *** to store the address of K . We mostly use int * and int **  sometimes in real world programs.
 
 

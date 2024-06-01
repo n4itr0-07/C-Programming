@@ -4,7 +4,7 @@ An array is a collection of similar objects/elements
 
 one variable => Capable of storing multiple values
 
-Syntax
+🔹Syntax
 The Syntax of declaring an array looks like this:
 
 int marks[90];   ==> Integer array
@@ -13,7 +13,7 @@ float percentile[90];  ==> Float array
 
 The Values can now be assigned to marks array 
 
-   ➡️     like this:
+   ➡️  like this:
     marks[0] = 33;
     marks[1] = 12; 
 
@@ -25,12 +25,40 @@ The Values can now be assigned to marks array
                   Total = 90 elements
 
 
-→ Accessing Elements 
+⟫ Accessing Elements 
 Elements of an array can be accessed using:
 
 → scanf("%d", &marks[0]);  ==> Input first values
 
-→ printf("%d", marks[0]); ==> output first values of the array
+→ printf("%d", marks[0]); ==> output first values of the array.
+
+⟫ Initialization of an array 
+
+→ There are many other ways in which an array can be initialized.
+
+int cgpa[3] = {9, 8, 8} ==> Arrays can be initialized while declaring
+float marks[] = {33, 40} 
+
+» Arrays in memory
+Consider this array:
+int arr[3] = {1, 2, 3} ==> 1 integer = 4 bytes
+
+This will reserve 4*3 = 12 bytes in memory
+4 bytes for each integer.
+
+                         🔶 Pointer Arithmetic 🔶
+
+A pointer can be incremented to point to the next memory location of that type.
+
+Consider this example
+int i = 32;
+int *a = &i; ==> a= 87994      address --> 87994
+a++;          ==> Now a = 87998
+
+
+                   
+
+
 
 
     

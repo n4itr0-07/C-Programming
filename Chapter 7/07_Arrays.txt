@@ -55,6 +55,15 @@ int i = 32;
 int *a = &i; ==> a= 87994      address --> 87994
 a++;          ==> Now a = 87998
 
+      
+        ⚡ Following Operations Can Be Performed On A Pointer ⚡
+
+» 1. Addition of a number to a pointer.
+» 2. Subtraction a number from a pointer.
+» 3. Subtraction of one pointer from another.
+» 4. Comparison of two pointer variables.
+
+
 
                    
 

@@ -1,0 +1,37 @@
+                            ☣️        CHAPTER 7 - ARRAYS         ☣️
+
+An array is a collection of similar objects/elements 
+
+one variable => Capable of storing multiple values
+
+Syntax
+The Syntax of declaring an array looks like this:
+
+int marks[90];   ==> Integer array
+char name[20];   ==> Character array or string
+float percentile[90];  ==> Float array
+
+The Values can now be assigned to marks array 
+
+   ➡️     like this:
+    marks[0] = 33;
+    marks[1] = 12; 
+
+    NoTE :- It is very important to note that the array index starts with 0.
+
+    Marks --> 7 | 6 | 21 | 3 | 2 | 1            88 | 89
+              0   1    2   3   4   5  .....     88 | 89
+
+                  Total = 90 elements
+
+
+→ Accessing Elements 
+Elements of an array can be accessed using:
+
+→ scanf("%d", &marks[0]);  ==> Input first values
+
+→ printf("%d", marks[0]); ==> output first values of the array
+
+
+    
+

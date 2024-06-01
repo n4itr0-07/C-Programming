@@ -16,7 +16,7 @@
    The 'value at address' operator (*)
    The value at address or / operator is used to obtain the value present at a given memory address. It denoted by *
 
-   * (8i) = 72
+   *(8i) = 72
    *(8j) =  87994
 
    How to declare a pointer ?
@@ -31,7 +31,10 @@
    char * ch_ptr; --> Pointers to character
    float * ch_ptr; --> Pointers to float
 
-   Althrough is a good practice to use meaningful variables names, we should be very careful while reading & working on programs from fellow programmers .
+   Although is a good practice to use meaningful variables names, we should be very careful while reading & working on programs from fellow programmers .
 
    A program to demonstrate pointers 
+
+
+
 

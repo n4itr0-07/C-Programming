@@ -20,4 +20,4 @@ In C we usually make a call by value.
                         Call By Reference
 Here the address of the variables is passed to the function as arguments.
 
-Now sincw the addresses are passed to the function the function can now modify the values of a variable in calling function using * and & 
+Now since the addresses are passed to the function the function can now modify the values of a variable in calling function using * and & 

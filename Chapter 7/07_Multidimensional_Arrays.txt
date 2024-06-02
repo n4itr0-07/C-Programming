@@ -10,3 +10,7 @@ int arr[3][2] = {1,4}
 
 We can access the elements of this array as arr[0][0], [0][1] & so on ....
 
+
+⟫ 2-D Arrays In Memory
+
+A 2d array like a 1-d array is stored in contiguous memory blocks like this :

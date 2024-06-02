@@ -1,0 +1,20 @@
+                                        ☣️ CHAPTER 8 - STRINGS ☣️
+
+A string is a 1-D character array terminated by a null ('\0)  → This is null character.
+
+Null character is used to denote string termination characters are stored in contiguous memory locations.
+
+⟫ Initializing Strings
+
+Since string is an array of characters, it can be initialized as follow:
+
+char[] = {'S','A','L','I','K','\0'};
+
+There is another shortcut for initialization of a strings in C language.
+
+char s [] = "SALIK"; ==> In this case C code adds a null character to the string automatically.
+
+» Strings In Memory
+
+A string is stored just like an array in the memory
+

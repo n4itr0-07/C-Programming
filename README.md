@@ -53,7 +53,7 @@
 <ul>
 <li>Functions Introduction</li>
 <li>Types Of function</li>
-<li>Quiz questions/li>
+<li>Quiz questions</li>
 <li>Recursion In C</li>
 <li>Practice Questions</li>
 </ul>
@@ -63,7 +63,7 @@
 <ul>
 <li>Introduction To Pointers</li>
 <li>Types Of Function Call</li>
-<li>Call By Value/li>
+<li>Call By Value</li>
 <li>Call By Reference</li>
 <li>4 Practice Questions</li>
 </ul>

@@ -50,4 +50,33 @@ Multiple gets() calls will be needed for multiple strings
 
 Likewise, puts can be used to output a string.
 
-puts(st);  → prints the string places the cursor on the next line 
+puts(st);  → prints the string places the cursor on the next line
+
+
+Declaring a string using pointers 
+we can declare strings using pointers
+
+char *ptr = "Salik";
+
+This tells the compiler to store the string in memory and assigned address is stored in a char pointer.
+
+»» Notes:-
+
+→ 1. Once a string is defined using char st[] = "Salik", it cannot be initialized to something else.
+
+→ 2. A string defined using pointers can be reinitialized.
+
+      ptr = "Salik";
+
+      ⟫Standard Library Functions For Strings
+
+C provides a set of ⟫Standard library functions for string multiplication.
+
+Some of the most commonly used string functions are :
+
+strlen ()
+This function is used to count the number of characters in the string excluding the null ('\0') character.
+
+int length = strlen(st);
+
+These functions are declared under <string .h> header file.

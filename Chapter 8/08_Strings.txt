@@ -16,5 +16,38 @@ char s [] = "SALIK"; ==> In this case C code adds a null character to the string
 
 » Strings In Memory
 
-A string is stored just like an array in the memory
+A string is stored just like an array in the memory.
 
+⟩⟩⟩ Printing Strings
+A string can be printed character by character using printf and %C but there is another convenient way to print strings in C.
+
+char str[] = "SALIK";
+printf("%s", str);  => Prints the entire string.
+
+Taking string input from the user we can use %s with scanf to take string input from user.
+
+char str[50];
+scanf("%s", str);
+
+Scanf automatically adds the null character when the enter key is pressed.
+
+
+⟫⟫ Note :-
+
+→ 1. The string should be short enough to fit into the array.
+→ 2. scanf cannot be used to input multi-word strings with spaces.
+
+
+                                ⁜ gets() and puts() ⁜
+
+
+gets() is a program which can be used to recieve a multi word string.
+
+char st[30];
+gets(st);   → The entered string is stored in st !
+
+Multiple gets() calls will be needed for multiple strings 
+
+Likewise, puts can be used to output a string.
+
+puts(st);  → prints the string places the cursor on the next line 

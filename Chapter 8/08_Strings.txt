@@ -74,9 +74,18 @@ C provides a set of ⟫Standard library functions for string multiplication.
 
 Some of the most commonly used string functions are :
 
-strlen ()
+→ strlen ()
 This function is used to count the number of characters in the string excluding the null ('\0') character.
 
 int length = strlen(st);
 
 These functions are declared under <string .h> header file.
+
+→ strcpy()
+This function is used to copy the content of second string into first string passed to it.
+
+char source[] = "Salik";
+char target[30];
+strcpy(target, source);  ==> target now contains "Salik"
+
+Target string have enough capacity to store the source string.

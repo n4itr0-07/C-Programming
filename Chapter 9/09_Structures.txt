@@ -38,3 +38,11 @@ Just like an array of integers , an array of floats and an array of characters, 
 
   we can access the data using  :
 facebook[0].code = 100;
+facebook[i] code = 101; ....... & so on 
+
+» Initializing Structures
+
+Structures can also be initialized as follow:
+
+Struct employee Salik = {100,71.22,"Salik"};
+Struct employee Atif = {0}; --> All elements set to 0.

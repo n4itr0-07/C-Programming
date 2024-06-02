@@ -1,0 +1,40 @@
+                                  🟢 CHAPTER 9 - STRUCTURES 🟢
+
+» Arrays and strings ==> similar data (int, float, char)
+» Structures can hold ==> dissimilar data.
+
+→ Syntax for creating Structures
+
+A C Structures can be created as follows:
+
+struct employee {
+    int code;
+    float salary;               => This declares a new user defined data type.
+    char name [10];
+};  →Semicolon is important
+
+We can use this user defined data type as follows:
+
+struct employee e1;
+    e1.code = 100;
+    e1.salary = 34.454;
+    // e1.name = "Harry"; --> Wont Work
+    strcpy(e1.name, "Salik");
+
+    so a Structure in C is a collection of variables of different types under a single name.
+
+    ⟫⟫ Why Use Structure 
+
+    we can create the data types in the employee structure. Separately but when the number of properties in a structure increases, it becomes difficult for us to create data variables without structures. In a nut shell:
+
+(a)  Structures keep the data organized.
+(b)  Structures make data management easy for the programmer.
+
+» Array Of Structures 
+
+Just like an array of integers , an array of floats and an array of characters, we can create an array of structures.
+
+  struct employee facebook[100];  --> An array of structures.
+
+  we can access the data using  :
+facebook[0].code = 100;

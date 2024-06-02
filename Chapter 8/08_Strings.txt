@@ -89,3 +89,17 @@ char target[30];
 strcpy(target, source);  ==> target now contains "Salik"
 
 Target string have enough capacity to store the source string.
+
+→ strcat()
+This function is used to concatenate two strings
+
+     char s1[11] = "Salik";
+     char s2[10] = "Naik";
+
+     strcat (s, s2);   ==> s1 now contains "SalikNaik"   < No Space between>
+
+
+     → strcmp()
+     This function is used to compare two strings. It returns : 0 if string are equal negative vale if first string is mismatching characters. ASCII values is not greater than second strings corresponding mismatching characters. It returns positive vales otherwise .
+
+     

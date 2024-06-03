@@ -8,7 +8,6 @@ int main(){
     printf("The value of b after change is %d\n", b);
     return 0;
 }
-, b
 void change(int a){
     a = 77;
 }

@@ -4,6 +4,7 @@
 int sum(int a, int b); // Function prototype declaration
 int main()
 {
+    int c;
     c = sum(2, 5); // Function call
     printf("The value of c is %d\n", c);
 
@@ -28,4 +29,3 @@ int sum(int a, int b)
 
 
    // follow on X @code_with_ssn 
-   

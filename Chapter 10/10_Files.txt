@@ -68,3 +68,23 @@ Following modes are primarily used in C FILE i/O
 
   FILE *ptr;
   fptr = fopen("Hello.txt", "w");
+
+  fgets(ptr) and fputc() 
+  fgets and fputs are used to read and write a character from / to a file
+
+  fgets(ptr)        => used to read a character from file
+  fputc('C',ptr);   => used to write character to file 'C'
+
+
+
+  EOF : End Of File
+
+  fgetc returns EOF when all the characters from a file have been read. So we can write a check like below to detect end of file.
+
+  while(1){
+   ch = fgetc(ptr); 
+   if(ch == EOF){   => When all the content of a file has been read break the loop !
+      break;
+   }
+   // Code
+  }

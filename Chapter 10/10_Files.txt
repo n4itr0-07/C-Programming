@@ -37,3 +37,34 @@ Following modes are primarily used in C FILE i/O
 5. "a" --> open for append → If the file does not exists, it will be created.
 
 
+  ⟫⟫ Types Of Files
+
+  There are two types of files:
+
+  1. Text files (.txt, .c)
+  2. Binary files (.jpg, .dat)
+
+  Reading a file
+  A file can be opened for reading as follow:
+  FILE *ptr;
+  ptr = fopen("Hello.txt", "r");
+  int num;
+
+  Let us assume that "Hello.txt" contains an integer we can read that integer using:
+  fscanf(ptr, "%d", &num);  => fsanf is file counterpart of scanf
+
+  This will read an integer from file in num variable.
+
+
+  Closing The File
+  It i svery imporation to close the file after read or write. This is acheived using fclose as follows:
+
+  fclose(ptr);
+
+  This will tell the compiler that we are done working with the file and the associated resources could be freed.
+
+  Writing to a File
+  We can write to a file in a very similar manner like we read the file
+
+  FILE *ptr;
+  fptr = fopen("Hello.txt", "w");

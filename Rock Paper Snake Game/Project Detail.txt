@@ -1,0 +1,8 @@
+                                 ☣️Snake Water Gun☣️ 
+
+
+Snake, water, gun or Rock, paper, scissors is a game moat of us have played during school time.
+
+Write a C program capable of playing this game with you.
+
+Program should be able to print the result after you choose snake / water or gun.

@@ -46,3 +46,29 @@ Structures can also be initialized as follow:
 
 Struct employee Salik = {100,71.22,"Salik"};
 Struct employee Atif = {0}; --> All elements set to 0.
+
+  
+  🔹Srructures In Memory
+
+Structures are stored in contiguous memory locations. Fo the structure e1 of type struct employee, memory layout looks like this :
+
+           100 | 71.22 | "Salik"
+Address -> 78820  78814   78818
+
+
+» Arrow Operator
+
+Instead of writing (*ptr).code, we can use arrow operator to access structure properties as follows :
+
+(*ptr).code or ptr-> code
+
+Here -> is known as the arrow operator.
+
+🔹Passing Structure To A Function
+
+A structure can be passed to a function just like any other data type.
+
+void show (struct employee );  ==> Function Prototype.
+
+
+

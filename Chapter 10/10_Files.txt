@@ -1,0 +1,39 @@
+                               🪯 CHAPTER 10 - FILES I/O 🪯 
+
+The random access memory is volatile and its content is lost once the program terminates. In order to presist the data forever we use files.
+
+A file is data stored in a storage device. A C program can talk to the files by reading content from it and writing content to it.
+
+
+   C Program --------->  Files
+               write 
+            <----------
+             Read  
+
+
+🔹File Pointer :-
+
+The "FILE" is a structure which needs to be created for opening the file.
+
+A file pointer is a pointer to this structure of the file.
+
+                                      FILE pointer is needed for communication between the program and the file.
+
+
+A FILE pointer can be created as follow:
+
+FILE *ptr;
+ptr = fopen("filename.txt", "Mode");
+
+➡️ File Opening Modes In C
+
+C offers the programmers to select a mode for opening a file.
+Following modes are primarily used in C FILE i/O
+
+1. "r" --> open for reading  → if the file does not exist, fopen returns
+2. "rb" --> open for reading in binary   → NULL
+3. "w" --> open for writing → if the file exists, the content will be overwritten.
+4. "wb" --> open for writing in binary
+5. "a" --> open for append → If the file does not exists, it will be created.
+
+

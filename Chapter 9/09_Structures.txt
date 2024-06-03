@@ -71,4 +71,19 @@ A structure can be passed to a function just like any other data type.
 void show (struct employee );  ==> Function Prototype.
 
 
+                                     🟣 Typedef Keyword 🟣 
+
+We can use typedef keyword to create an alias name for data types in C. Typedef is more commonly used with structures :
+
+struct complex {
+  float real;             
+  float img;  => Struct complex C1,C2; for defining complex numbers.
+};
+
+typedef struct complex {
+  float real;
+  float img;
+} ComplexNo;      => ComplexNo C1, C2; for defining complex numbers
+
+
 

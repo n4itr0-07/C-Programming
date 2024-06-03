@@ -64,7 +64,7 @@ a++;          ==> Now a = 87998
 » 4. Comparison of two pointer variables.
 
 
-
+                                             ❣️❣️❣️
                    
 
 

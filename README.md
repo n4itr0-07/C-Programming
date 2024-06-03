@@ -59,13 +59,26 @@
 </ul>
 
 <hr>
-<b color="red">CHAPTER 6</b> 
+<b>CHAPTER 6</b> 
 <ul>
 <li>Introduction To Pointers</li>
 <li>Types Of Function Call</li>
 <li>Call By Value</li>
 <li>Call By Reference</li>
 <li>4 Practice Questions</li>
+</ul>
+<hr>
+<b>CHAPTER 6</b> 
+<ul>
+<li>Introduction TO Strings</li>
+<li>Difference between 2 init method </li>
+<li>Inputing strings</li>
+<li>gets & puts</li>
+<li>strcat</li>
+<li>strcmp</li>
+<li><strcpy/li>
+<li>strlen</li>
+<li>Practice Questions</li>
 </ul>
 
 <b><h3>Number Gassing Game</h3></b>

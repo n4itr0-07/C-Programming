@@ -44,3 +44,4 @@ R = 8j;
 We can  even go further one level and create a variable L of type int *** to store the address of K . We mostly use int * and int **  sometimes in real world programs.
 
 
+                                                       ❣️❣️❣️

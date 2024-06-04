@@ -85,7 +85,7 @@
 <li>gets & puts</li>
 <li>strcat</li>
 <li>strcmp</li>
-<li><strcpy/li>
+<li>strcpy</li>
 <li>strlen</li>
 <li>Practice Questions</li>
 </ul>

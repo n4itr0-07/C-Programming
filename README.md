@@ -57,7 +57,6 @@
 <li>Recursion In C</li>
 <li>Practice Questions</li>
 </ul>
-
 <hr>
 <b>CHAPTER 6</b> 
 <ul>
@@ -68,7 +67,17 @@
 <li>4 Practice Questions</li>
 </ul>
 <hr>
-<b>CHAPTER 6</b> 
+<b>CHAPTER 7</b> 
+<ul>
+<li>Introduction To Arrays</li>
+<li>Initialization Of Arrays </li>
+<li>Pointer Arithmetic</li>
+<li>Multidimensional Arrays</li>
+<li>Arrays To Function</li>
+<li>5 Practice set Questions</li>
+</ul>
+<hr>
+<b>CHAPTER 8</b> 
 <ul>
 <li>Introduction TO Strings</li>
 <li>Difference between 2 init method </li>
@@ -80,10 +89,34 @@
 <li>strlen</li>
 <li>Practice Questions</li>
 </ul>
+<hr>
+<b>CHAPTER 9</b> 
+<ul>
+<li>Introduction TO Structures</li>
+<li>Arrays Of Structure </li>
+<li>Init of Structure</li>
+<li>Typedef Keyword</li>
+<li>3 Practice Set Questions</li>
+</ul>
+<hr>
+<b>CHAPTER 10</b> 
+<ul>
+<li>Introduction To Files I/O</li>
+<li>fgetc & fputc </li>
+<li>File Opening and Closing</li>
+<li>Types Of Files</li>
+<li>Different Modes Of File i.e "r" "w" etc</li>
+</ul>
+<hr>
+
+<center><h2> 2 Projects Using C </h2></center>
 
 <b><h3>Number Gassing Game</h3></b>
 <i> Generate random numbers and play till you get exact results</i>
 <i>Using do while loop and if else loop</i>
-
+<hr>
+<b><h3>Rock Paper Scissor Game</h3></b>
+<p> Paly with computer Rock, Paper, Scissor, Gun, Snake & Water </p>
+<hr>
 <b><p>Follow me on  <a href="https://x.com/code_with_ssn>"> X | TWitter</a></p></b>
 <b><p>Follow me on  <a href="https://www.linkedin.com/in/salik-seraj-naik"> Linkedin</a></p></b>

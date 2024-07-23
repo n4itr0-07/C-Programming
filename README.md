@@ -1,4 +1,4 @@
-# C Programming 
+le# C Programming 
 
 <b> In this repo i will share my <em>c programming</em> , learning and practice questions with chapter wisely </b>
 <br>
@@ -138,5 +138,3 @@
 <div align="center">
   <img src="https://profile-counter.glitch.me/Salik-Seraj/count.svg?"  />
 </div>
-
-###
